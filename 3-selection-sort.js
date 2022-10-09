@@ -4,7 +4,7 @@ let count = 0
 
 function selectionSort(arr) {
 
-  for (let i = 0; i < array.length; i++) {
+  for (let i = 0; i < arr.length; i++) {
 
     let indexMin = i
     for (let j = i + 1; j < array.length; j++) {
@@ -23,4 +23,3 @@ function selectionSort(arr) {
 
 
 console.log(selectionSort(array), count);
-console.log(array)
